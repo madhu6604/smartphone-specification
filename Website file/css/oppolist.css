@@ -1,0 +1,173 @@
+body{
+  font-family: "Montserrat";
+}
+header{
+  height: 150px;
+}
+
+.container-fluid{
+padding: 4% 10%;
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 5.0rem;
+  line-height: 1.7;
+  padding: 5% 8%;
+}
+.nav-item{
+  padding: 0 80px;
+  margin-bottom: 30px;
+
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-family:Montserrat-Black;
+  font-weight: bold;
+}
+.download-button{
+  margin: 10% 0 10% 10%;
+}
+
+#a1 {
+  height: 350px;
+  width: 200px;
+  margin-left: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#a2{
+  height: 350px;
+  width: 270px;
+  margin-left: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#a3 {
+  height: 350px;
+  width: 180px;
+  margin-left: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#a4 {
+  height: 350px;
+  width: 250px;
+  margin-left: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#a5 {
+  height: 350px;
+  width: 200px;
+  margin-left: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#a6 {
+  height: 350px;
+  width: 200px;
+  margin-left: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image {
+  height: 350px;
+  width: 330px;
+  margin-left: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* whitesecti */
+.white-section{
+  padding: 3% 1%
+}
+
+/* Testimonial Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+.white-section{
+  padding: 3% 1%
+}
+.col-lg-4{
+  padding: 50px 100px 50px 10px;
+}
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+#footer{
+  padding: 2% 2%;
+  text-align: center;
+  background-color: skyblue;
+}
+
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  z-index: 1;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 5px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 10px;
+}

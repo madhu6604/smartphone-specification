@@ -1,0 +1,161 @@
+body {
+    color: #000;
+    overflow-x: hidden
+}
+header{
+  height: 150px;
+}
+#title {
+background-color: #f5fcf6;
+}
+.container-fluid{
+padding: 0 5% 2% 10%;
+
+}
+
+.card {
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+fieldset.active {
+display: block !important
+}
+
+fieldset {
+    display: none
+}
+
+.pic0 {
+    height: 500px;
+    margin: 20px 120px 20px 120px;
+    display: block
+}
+
+.product-pic {
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%
+}
+
+.thumbnails {
+    position: absolute;
+
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.tb {
+    width: 62px;
+    height: 62px;
+    border: 1px solid grey;
+    margin: 2px;
+    opacity: 0.4;
+    cursor: pointer
+}
+
+.tb-active {
+    opacity: 1
+}
+
+.thumbnail-img {
+    margin: auto;
+    width: 50px;
+    height: 60px
+}
+
+@media screen and (max-width: 768px) {
+    .pic0 {
+        width: 250px;
+        height: 350px
+    }
+}
+.nav-item{
+  padding: 0 80px;
+  margin-bottom: 30px;
+
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-family:Montserrat-Black;
+  font-weight: bold;
+}
+h1{
+  margin: 35px;
+}
+h5{
+  margin-left: 35px;
+  font: panoramic;
+}
+#sk1{
+  margin-top: 100px;
+}
+.price{
+  font-size: 40px;
+  color: red;
+
+}
+.col-lg-5{
+  margin-left: 0;
+}
+h6{
+  font: panoramic;
+}
+.col-lg-6{
+  margin-left: 0px;
+  margin-top: 30px;
+}
+table, th, td{
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+table{
+background-color: white;
+}
+tr{
+  background-color:  #deedfd;
+}
+#footer{
+  padding: 2% 2%;
+  text-align: center;
+  background-color: skyblue;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  z-index: 1;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  z-index: 500px;
+}
+
+/* Page content */
+.content {
+  padding: 5px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 10px;
+}
